@@ -306,7 +306,7 @@ border:  none !important;
     left: 0px;
     background-color: white;
     opacity: .88;
-    z-index:1;
+    z-index:1 !important;
     width: 100%;
     height: 100%;
 }
@@ -351,7 +351,7 @@ a{
 
 
 .footer-text:hover{
-color: #981F86 !important;
+color: hsl(309, 66%, 36%) !important;
 }
 
 .text-green{
@@ -415,3 +415,39 @@ color: #981F86 !important;
 .br{
     border-right: 1px solid #59739339;
 }
+
+
+
+
+
+
+
+
+
+.consultation{
+    font-weight: 500;
+    color: white;
+    /* background-color:hsla(213, 97%, 53%, 0.233); */
+    background-color: #981F86;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: white;
+    border-radius: 30px 30px 30px 30px;
+    padding: 3px 30px;
+    animation: ripple 2000ms infinite;
+    margin: 0px 20px;
+  }
+  .consultation a{
+    color: white !important;
+  }
+  .consultation a:hover{
+    color: white !important;
+  }
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0px transparent, 0 0 0 0px #981F86, 0 0 0 0px transparent, 0 0 0 0px #981F86, 0 0 0 0px transparent, 0 0 0 0px #981F86, 0 0 0 0px transparent, 0 0 0 0px #981F86;
+    }
+    100% {
+      box-shadow: 0 0 0 15px transparent, 0 0 0 5px rgba(255,255,255,0), 0 0 0 10px transparent, 0 0 0 22px rgba(255,255,255,0), 0 0 0 40px transparent, 0 0 0 52px rgba(255,255,255,0), 0 0 0 0px #981F86, 0 0 0 6px rgba(255,255,255,0);
+    }
+  }

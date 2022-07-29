@@ -28,6 +28,7 @@
     }
 }
 @media only screen and (max-width:767px){
+    
     .padding{
         padding: 0px 30px ;
     }
@@ -73,4 +74,7 @@
     .padding{
         padding: 0px 10px ;
     }
+    .consultation{
+        margin: 0px !important;
+      }
 }
