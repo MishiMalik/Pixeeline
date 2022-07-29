@@ -41,45 +41,55 @@ body{
    white-space: nowrap;
 }
 .nav-link:hover{
-    color: #157BFB !important;
+    color: #981F86 !important;
 }
 .navbar-nav{
     width: 75%;
 }
+.nav-link i{
+    color: white !important;
+}
 .green-btn{
     font-weight: 500;
-    color: #157BFB;
-    background-color:hsla(213, 97%, 53%, 0.233);
+    color: white;
+    /* background-color:hsla(213, 97%, 53%, 0.233); */
+    background:linear-gradient(89.71deg, rgba(152, 31, 134, 0.65) 0.27%, rgba(36, 144, 212, 0.65) 99.77%) ;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #157BFB;
+    border-color: white;
     border-radius: 30px 30px 30px 30px;
     padding: 3px 30px;
 }
 .green-btn:hover{
     font-weight: 500;
     color: white;
-    background-color:#157BFB;
+    background:#981F86;
     ;
+}
+.green-btn a{
+    color: white !important;
 }
 .green-btn:hover a{
     color: white !important;  
 }
 .green-btn-2{
     font-weight: 500;
-    color: #157BFB;
-    background-color:hsla(213, 97%, 53%, 0.233);
+    color: #981F86;
+    background:linear-gradient(89.71deg, rgba(152, 31, 134, 0.65) 0.27%, rgba(36, 144, 212, 0.65) 99.77%) ;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #157BFB;
+    border-color: #981F86;
     border-radius: 30px 30px 30px 30px;
     padding: 0px 15px;
 }
 .green-btn-2:hover{
     font-weight: 500;
     color: white;
-    background-color:#157BFB;
+    background-color:#981F86;
     ;
+}
+.green-btn-2 a{
+    color: white !important;  
 }
 .green-btn-2:hover a{
     color: white !important;  
@@ -87,10 +97,10 @@ body{
 .green-btn-3{
     font-weight: 500;
     color: white;
-    background-color:#157BFB ;
+    background:linear-gradient(89.71deg, rgba(152, 31, 134, 0.65) 0.27%, rgba(36, 144, 212, 0.65) 99.77%) !important;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #157BFB;
+    border-color: #981F86;
     border-radius: 30px 30px 30px 30px;
     padding: 0px 15px;
 }
@@ -103,7 +113,7 @@ body{
     ;
 }
 .green-btn-3:hover a{
-    color: #157BFB !important;  
+    color: #981F86 !important;  
 }
 .dropdown-menu{
     border-radius: 8px !important;
@@ -117,7 +127,7 @@ body{
   
 }
 .dropdown-menu .dropdown-item:hover{
-    color: #157BFB;
+    color: #981F86;
 }
 .owl-theme .owl-dots .owl-dot span{
     display: none !important;
@@ -134,7 +144,8 @@ body{
 main row
 ---------------------------------------- */
 .stats-row{
-    background-color: #157BFB;
+    /* background-color: #981F86; */
+    background:linear-gradient(89.71deg, rgba(152, 31, 134, 0.85) 0.27%, rgba(36, 144, 212, 0.85) 99.77%) !important;
     padding: 100px 0px 190px 0px;
 }
 .border-right{
@@ -173,7 +184,7 @@ main row
 .skills-icon {
     height: 100px;
     width: 100px !important;
-    background-color: #157BFB;
+    background-color: #981F86;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -230,7 +241,7 @@ main row
     position: relative;
     border-radius:0px 0px 10px 10px;
     z-index: 2;
-    border: 3px solid #157BFB;
+    border: 3px solid #981F86;
 }
 .pricing-list{
     list-style: none;
@@ -244,7 +255,7 @@ main row
     border-bottom: 0px solid #59739339;
 }
 .premium-header{
-    background-color: #157BFB;
+    background-color: #981F86;
     min-height: 120px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -273,7 +284,7 @@ main row
     border-bottom: 1px solid #5973932a !important;
 }
 .accordion-button:not(.collapsed){
-color: #157BFB !important;
+color: #981F86 !important;
 background-color: transparent !important;
 border:  none !important;
 }
@@ -313,21 +324,25 @@ border:  none !important;
 a{
     text-decoration: none !important;
 }
+.email{
+    color: white !important;
+}
 .social-div{
     height: 32px;
     width: 32px;
-    background-color: hsla(213, 97%, 53%, 0.233);
+    background:linear-gradient(89.71deg, rgba(152, 31, 134, 0.65) 0.27%, rgba(36, 144, 212, 0.65) 99.77%) ;
+
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
 }
 .social-div i{
-    color: #157BFB;
+    color: #981F86;
 }
 
 .social-div:hover{
-    background-color: #157BFB;
+    background-color: #981F86;
 }
 .social-div:hover  i{
     color: white;
@@ -336,11 +351,11 @@ a{
 
 
 .footer-text:hover{
-color: #157BFB !important;
+color: #981F86 !important;
 }
 
 .text-green{
-    color: #157BFB !important;
+    color: #981F86 !important;
 }
 .text-blue{
     color: #597393 !important;
