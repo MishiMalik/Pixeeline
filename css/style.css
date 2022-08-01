@@ -357,6 +357,9 @@ color: hsl(309, 66%, 36%) !important;
 .text-green{
     color: #981F86 !important;
 }
+.bg-green{
+    background-color: #981F86;
+}
 .text-blue{
     color: #597393 !important;
 }
@@ -449,5 +452,105 @@ color: hsl(309, 66%, 36%) !important;
     }
     100% {
       box-shadow: 0 0 0 15px transparent, 0 0 0 5px rgba(255,255,255,0), 0 0 0 10px transparent, 0 0 0 22px rgba(255,255,255,0), 0 0 0 40px transparent, 0 0 0 52px rgba(255,255,255,0), 0 0 0 0px #981F86, 0 0 0 6px rgba(255,255,255,0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .buttonS {
+    width: 250px;
+    height: 49px;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 5px 5px 45px !important;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    /*background: #ffd401;*/
+    /* By Sajjad */
+    background: linear-gradient(to bottom,#981F86 0,#981F86 100%);
+    border: #ffffff52 1px solid;
+    border-radius: 210px;
+    box-shadow: #5f5f5f85 0 0 18px;
+    /* End */
+    border: none;
+    /* box-shadow: 12px 12px 24px rgba(209, 200, 79, 0.64); */
+    transition: all 0.4s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+  }
+  
+  /* .buttonS::before {
+    content: "";
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #ffd401;
+    box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0s;
+  } */
+  
+  .buttonS:hover,
+  .buttonS:focus {
+    color: black;
+    transform: translateY(-6px);
+  }
+  
+  .buttonS:hover::before,
+  .buttonS:focus::before {
+    opacity: 1;
+  }
+  
+  .buttonS::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 8px solid #981F86;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  .buttonS:hover::after,
+  .buttonS:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+@keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
     }
   }
