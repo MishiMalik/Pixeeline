@@ -40,7 +40,13 @@ body{
    text-transform: capitalize;
    white-space: nowrap;
 }
+.nav-btn{
+    background-color: transparent;
+    border: none;
+}
 .nav-link:hover{
+    color: #981F86 !important;
+} .active{
     color: #981F86 !important;
 }
 .navbar-nav{
@@ -456,21 +462,6 @@ color: hsl(309, 66%, 36%) !important;
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .buttonS {
     width: 250px;
     height: 49px;
@@ -496,21 +487,7 @@ color: hsl(309, 66%, 36%) !important;
     position: relative;
   }
   
-  /* .buttonS::before {
-    content: "";
-    border-radius: 1000px;
-    min-width: calc(300px + 12px);
-    min-height: calc(60px + 12px);
-    border: 6px solid #ffd401;
-    box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: all 0.3s ease-in-out 0s;
-  } */
-  
+
   .buttonS:hover,
   .buttonS:focus {
     color: black;
@@ -549,8 +526,89 @@ color: hsl(309, 66%, 36%) !important;
       opacity: 1;
     }
     100% {
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
       opacity: 0;
     }
+  }
+
+
+
+  /* popupform */
+  .popup-heading{
+    font-size: 28px;
+    color: #adadad;
+    font-weight: 700;
+    padding-left: 15px;
+    border-left: #fbd403 6px solid;
+    margin-bottom: 12px;
+    line-height: 35px;
+    margin-top: 0;
+  }
+  .pop-input{
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+
+  }
+  .pop-input i{
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    color: #fbd403;
+  }
+  .pop-input input{
+    background: #ffffff;
+    border: #adadad 1px solid;
+    padding: 10px 10px 10px 34px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #000;
+    box-shadow: none !important;
+    outline: none 0px !important;
+  }
+  .pop-input input::placeholder,
+  .pop-input textarea::placeholder{
+   font-size: 14px;
+   font-weight: 600;
+  }
+  .pop-input textarea{
+    background: #ffffff;
+    border: #adadad 1px solid;
+    padding: 10px 10px 10px 34px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #000;
+    box-shadow: none !important;
+    outline: none 0px !important;
+  }
+  .pop-btn{
+    width: fit-content !important;
+    padding: 3px 50px !important;
+    margin-bottom: -50px !important;
+    background: transparent !important;
+    background-color: #fbd403 !important;
+    
+  }
+  .modal-content{
+    border-radius: 23px !important;
+    position: relative;
+    padding: 15px;
+  }
+  .btn-close{
+    border: #56317E 3px solid !important;
+    background: #fff;
+    border-radius: 100% !important;
+    text-align: center;
+    box-shadow: #000 0 0 10px;
+    position: absolute;
+    right: -10px !important;
+    top: -10px !important;
+    overflow: visible;
+    opacity: 1 !important;
+    font-size: 13px;
+    padding: 10px !important;
+    z-index: 1066 !important;
   }

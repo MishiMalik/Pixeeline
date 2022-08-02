@@ -51,14 +51,13 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav justify-content-end ms-auto mb-2 mb-lg-0 ">
                                     <li class="nav-item me-3 mt-2">
-                                        <a class="nav-link " aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item me-3 mt-2">
-                                        <a class="nav-link" href="#">About us</a>
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                                     </li>
                                    
                                     <li class="nav-item me-3 mt-2">
-                                        <a class="nav-link" href="#">Contact us</a>
+                                        <button type="button" class="nav-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <a class="nav-link" href="#">Contact us</a>
+                                        </button>
                                     </li>
                                    
                                     <li>
@@ -805,6 +804,64 @@
         </div>
 
     </main> 
+
+
+    <!-- Button trigger modal -->
+<button >
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+       
+        <div class="modal-body">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+         <h1 class="popup-heading w-100">
+            We are here to help!
+         </h1>
+         <p class="pop-text f-16 w-500">Providing you the perfect solution for your business needs. Let's work together and unlock doors to success.</p>
+          <form action="">
+            <div class="row">
+                <div class="col-lg-12">
+                     <div class="pop-input">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="Full Name*">
+                     </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="pop-input">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="text" placeholder="Email Address*">
+                     </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="pop-input">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <input type="text" placeholder="Whatsapp Number*">
+                     </div>
+                </div>
+                <div class="col-lg-12 mb-3">
+                    <div class="pop-input">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <textarea name="" id=""  rows="5" placeholder="To help us understand better, enter a brief description about your project."></textarea>
+                     </div>
+                </div>
+<div class="d-flex justify-content-center w-100">
+    <button class="pop-btn green-btn mt-2"><a href="" class="nav-link text-green">SUBMIT</a></button>
+
+</div>
+            </div>
+          </form>
+        
+        </div>
+       
+      </div>
+    </div>
+  </div>
 
 
     <script src="css/bootstrap-5/js/bootstrap.bundle.min.js"></script>

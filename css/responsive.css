@@ -80,4 +80,11 @@
     .consultation{
         margin: 0px !important;
       }
+      .green-btn{
+        width: 100% !important ;
+      }
+    .buttonS {
+        margin-top: 30px;
+        width: 100%;
+    }
 }
