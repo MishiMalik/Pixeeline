@@ -540,7 +540,7 @@ color: hsl(309, 66%, 36%) !important;
     color: #adadad;
     font-weight: 700;
     padding-left: 15px;
-    border-left: #fbd403 6px solid;
+    border-left: #981F86 6px solid;
     margin-bottom: 12px;
     line-height: 35px;
     margin-top: 0;
@@ -555,7 +555,7 @@ color: hsl(309, 66%, 36%) !important;
     position: absolute;
     top: 15px;
     left: 14px;
-    color: #fbd403;
+    color: #981F86;
   }
   .pop-input input{
     background: #ffffff;
@@ -589,7 +589,7 @@ color: hsl(309, 66%, 36%) !important;
     padding: 3px 50px !important;
     margin-bottom: -50px !important;
     background: transparent !important;
-    background-color: #fbd403 !important;
+    background-color:#981F86 !important;
     
   }
   .modal-content{
