@@ -69,7 +69,7 @@
         margin-top: 30px;
     } */
 }
-@media only screen and (max-width:479px){
+@media only screen and (max-width:550px){
     .f-72{
         font-size: 30px;
         line-height: 30px;
